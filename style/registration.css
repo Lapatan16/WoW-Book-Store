@@ -1,0 +1,78 @@
+body
+{
+    margin: 0;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-family: Arial, sans-serif;
+
+    color: rgb(255, 217, 0);
+    -webkit-text-stroke: 0.45px black;
+}
+
+#background-video 
+{
+    width: 100vw;
+    height: 100vh;
+    object-fit: cover;
+    position: fixed;
+    z-index: -1;
+}
+
+#box
+{
+    scale: 140%;
+    width: 350px;
+    text-align: center;
+    padding: 10px;
+    padding-top: 100px;
+}
+
+input
+{
+    margin-top: 5px;
+    margin-bottom: 10px;
+    background-color: rgba(0, 0, 0, 0.603);
+    border: 2px solid rgb(190, 190, 190);
+    color: rgba(255, 255, 255, 0.803);
+    -webkit-text-stroke: 0px black;
+}
+
+input:last-of-type
+{
+    margin-bottom: 0px;
+}
+
+button
+{
+    padding: 10px 50px;
+    font-size: 15px;
+    margin-bottom: 10px;
+    border-radius: 15px;
+    background-color: hsl(7, 100%, 25%);
+    color: rgb(255, 222, 6);
+    border: 2px solid rgb(190, 190, 190);
+    -webkit-text-stroke: none;
+}
+
+button:hover
+{
+    background-color: hsl(7, 100%, 30%);
+    color: white;
+}
+
+a
+{
+    text-decoration: none;
+    color: rgb(53, 53, 255);
+}
+
+a:visited
+{
+    color: rgb(53, 53, 255);
+}
+
+.invalid
+{
+    border-color: red;
+}

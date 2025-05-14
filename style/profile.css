@@ -1,0 +1,32 @@
+#profile
+{
+    width: 800px;
+    border: 2px solid black;
+    background-color: rgba(0, 0, 0, 0.500);
+    border-radius: 5px;
+    margin: 20px auto;
+    text-align: center;
+    font-size: 25px;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    -webkit-text-stroke: 0.15px black;
+}
+
+#profile button
+{
+    margin-bottom: 20px;
+    padding: 10px 40px;
+    font-size: 20px;
+    border-radius: 15px;
+    background-color: hsl(7, 100%, 25%);
+    color: rgb(255, 222, 6);
+    border: 2px solid rgb(190, 190, 190);
+    -webkit-text-stroke: none;
+}
+
+#profile button:hover
+{
+    background-color: hsl(7, 100%, 30%);
+    color: white;
+}
+
