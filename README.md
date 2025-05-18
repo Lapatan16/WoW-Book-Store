@@ -23,6 +23,6 @@ This is a World of Warcraft themed bookstore which allows you to:
 5. add/remove books to/from your cart;
 ![Screenshot 2025-05-18 172713](https://github.com/user-attachments/assets/6914306d-d735-4697-bce4-dcb8c68079c2)
 
-6. checkout your cart;
+6. checkout your cart and log out;
   
 
